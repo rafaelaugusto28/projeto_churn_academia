@@ -33,5 +33,19 @@ Neste projeto, percorri as etapas essenciais de um fluxo de Data Science:
 ## 🧠 O que estou aprendendo
 Este projeto faz parte da minha trilha de estudos em **Machine Learning Classificação Multiclasse**. Estou aprofundando meus conhecimentos em como modelos matemáticos podem ajudar negócios a tomarem decisões baseadas em dados, transformando o "feeling" em estratégia real.
 
+## 🔍 Principais Descobertas (Insights)
+
+Após o treinamento do modelo **Random Forest**, analisei a importância das variáveis para entender o que realmente motiva o Churn.
+
+### 🚀 O Fator Crucial: `Visits_Per_Month`
+A variável que apresentou o maior impacto na previsão foi a **frequência de visitas mensais**. 
+
+* **Descoberta:** Alunos que frequentam a academia menos vezes por mês têm uma probabilidade drasticamente maior de cancelar a matrícula.
+* **Ação Sugerida:** A academia deve focar em programas de engajamento e alertas para alunos que não atingem uma meta mínima de visitas semanais, agindo antes que o abandono aconteça.
+
+### Outros Fatores Relevantes:
+* **Last Visit Date:** Quanto mais tempo o aluno passa sem pisar na academia, maior o risco imediato.
+* **Age:** A idade também mostrou influência, sugerindo que diferentes faixas etárias possuem comportamentos de fidelidade distintos.
+
 ---
 💡 *Desenvolvido por [Rafael Augusto Dias Batista]
